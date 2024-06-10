@@ -1,0 +1,4 @@
+CREATE TABLE [User](
+	userId VARCHAR(20) PRIMARY KEY,
+	password VARCHAR(64),
+	userName VARCHAR(255));
