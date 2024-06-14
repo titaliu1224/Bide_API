@@ -9,11 +9,13 @@ CREATE TABLE [User](
 ```sql
 CREATE TABLE [Game](
 	userId VARCHAR(20),
-	completeTime DATETIME,
+	completeDate DATETIME,
 	mode INT,
 	score INT,
-	gameTime DATETIME,
-	PRIMARY KEY(userId, completeTime),
+	gameTime INT,
+	PRIMARY KEY(userId, completeDate),
 	FOREIGN KEY(userId) REFERENCES [User](userId)
 	);
 ```
+
+![DB Picture](Bide DB.drawio.png)
