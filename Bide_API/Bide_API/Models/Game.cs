@@ -7,5 +7,5 @@ public class Game {
     [Key] public DateTime completeDate { get; set; }
     public int mode { get; set; }
     public int score { get; set; }
-    public DateTime gameTime { get; set; }
+    public int gameTime { get; set; }
 }

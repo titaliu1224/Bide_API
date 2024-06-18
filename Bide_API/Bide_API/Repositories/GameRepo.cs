@@ -26,4 +26,17 @@ public class GameRepo : IGameRepo {
 
         return [];
     }
+
+    public async Task<bool> SaveGameResult(Game gameResult) {
+        try {
+            await _connection.QueryAsync("[dbo].[InsertGameResult_0.1]", gameResult,
+                commandType: CommandType.StoredProcedure);
+            return true;
+        }
+        catch(Exception e) {
+            Console.WriteLine("try failed");
+            Console.WriteLine(e.Message);
+            return false;
+        }
+    }
 }

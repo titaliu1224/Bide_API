@@ -17,4 +17,9 @@ public class GameController: Controller {
     public async Task<List<Game>> GetAllGame() {
         return await _gameRepo.GetAllGameInfo();
     }
+
+    [HttpPost]
+    public async Task<bool> SaveGameResult(Game game) {
+        return await _gameRepo.SaveGameResult(game);
+    }
 }
