@@ -14,7 +14,7 @@ public class GameController: Controller {
     }
 
     [HttpGet]
-    public async Task<List<Game>> GetAllGame() {
+    public async Task<List<GameInfo>> GetAllGame() {
         return await _gameRepo.GetAllGameInfo();
     }
 

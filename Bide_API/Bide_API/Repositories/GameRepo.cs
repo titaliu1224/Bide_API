@@ -12,9 +12,9 @@ public class GameRepo : IGameRepo {
         _connection = connection.ConnectDb();
     }
 
-    public async Task<List<Game>> GetAllGameInfo() {
+    public async Task<List<GameInfo>> GetAllGameInfo() {
         try {
-            var games = await _connection.QueryAsync<Game>("[dbo].[GetAllGameInfo_0.1]",
+            var games = await _connection.QueryAsync<GameInfo>("[dbo].[GetAllGameInfo_0.3]",
                 commandType: CommandType.StoredProcedure);
             Console.WriteLine("try success");
             return games.ToList();
