@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bide_API", "Bide_API\Bide_API.csproj", "{9E1BE4F9-51DE-488C-85EE-572D29BA1EBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bide_API.tests", "..\Bide_API.tests\Bide_API.tests.csproj", "{32749D33-232F-41FE-8708-272B99219892}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{9E1BE4F9-51DE-488C-85EE-572D29BA1EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1BE4F9-51DE-488C-85EE-572D29BA1EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1BE4F9-51DE-488C-85EE-572D29BA1EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32749D33-232F-41FE-8708-272B99219892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32749D33-232F-41FE-8708-272B99219892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32749D33-232F-41FE-8708-272B99219892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32749D33-232F-41FE-8708-272B99219892}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
