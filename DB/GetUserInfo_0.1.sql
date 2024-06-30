@@ -1,0 +1,8 @@
+CREATE PROCEDURE [GetUserInfo_0.1]
+@userId VARCHAR(20)
+AS
+BEGIN
+	SELECT *
+	FROM [User]
+	WHERE userId = @userId
+END
