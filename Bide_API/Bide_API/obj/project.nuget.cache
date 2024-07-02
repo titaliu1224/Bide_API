@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vTkB9dwmviaC2X1MssLDYhn6Z6VxKfVug1zzCrUDj4BaAzOAVaaMTefBYthxrCKRvk9Pr+xLKGvbXs1jwHP+ZA==",
+  "dgSpecHash": "pGNZPHUr8ZOiG4P07EjYgl3draRWqh2KvRXnghFtNlDeUb5/wNkpOveWSQ+WOY3V9jzh3XoKUTms3fsi6FlyOw==",
   "success": true,
   "projectFilePath": "D:\\web\\Bide_API\\Bide_API\\Bide_API\\Bide_API.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\tiffa\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\tiffa\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\tiffa\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\tiffa\\.nuget\\packages\\scrypt.net\\1.3.0\\scrypt.net.1.3.0.nupkg.sha512",
     "C:\\Users\\tiffa\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\tiffa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\tiffa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
